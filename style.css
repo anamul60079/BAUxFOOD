@@ -1,0 +1,172 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 1rem 5%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+   .logo h1 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
+
+.logo h1 span {
+    color: #ff4757; /* Highlight 'x' in food brand theme */
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: #dddddd;
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+/* Hover & Active States */
+.nav-links a:hover,
+.nav-links a.active {
+    color: #ff4757;
+}
+.section {
+    padding: 4rem 5%;
+    text-align: center;
+}
+.services {
+    background-color: #f8f8f8;
+    padding: 4rem 5%;
+    border: 1px solid #ccc;
+    background-color: rgb(109, 109, 210);
+}
+.services .service-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+    text-align: center;
+   
+}
+.services .service-info .service-info  {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 1px solid #ff4757;
+}
+.service-info:hover {
+    background-color: #927174;
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.service-name:hover {
+    background-color: #937779;
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.items { 
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  padding: 30px 20px; 
+  
+  /* Modern shorthand: row-gap first, then column-gap */
+  gap: 30px 20px; 
+}
+.items { 
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  padding: 30px 20px; 
+  gap: 30px 20px; 
+}
+
+.item {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.item img {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+  background-color: #f0f0f0; /* ইমেজ না থাকলে ব্যাকগ্রাউন্ড দেখাবে */
+}
+
+.item h4 {
+  margin: 15px 0 10px;
+  font-size: 18px;
+  color: #333333;
+}
+
+.item p {
+  margin: 0 0 15px;
+  font-size: 16px;
+  color: #e67e22;
+  font-weight: bold;
+}
+
+.item button {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.item button:hover {
+  background-color: #219653;
+}
+
+.about-section {
+    padding: 4rem 5%;
+    text-align: center;
+    background-color: #f8f8f8;
+   border: 2px solid blueviolet;
+   background-color: #219653;
+}
+.about-section, .container {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333333;
+    border: 2px solid blueviolet;
+    background-color:rgb(71, 17, 132);
+}
+.about-section .container, .about-section p {
+    font-size: 1.2rem;
+    color: #555555;
+    line-height: 1.6;
+    background-color: aquamarine;
+
+}
+.services2 {
+    background-color: #f8f8f8;
+    padding: 4rem 5%;
+    border: 1px solid #ccc;
+    background-color: rgb(57, 209, 118);
+}
+.services2 .service-section2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+    text-align: center;
+   
+}
+.services2 .service-info2 .service-info2  {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 1px solid #ff4757;
+}

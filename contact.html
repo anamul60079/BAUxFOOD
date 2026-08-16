@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+.direct-contact {
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #040000;
+  background-color: aquamarine;
+}
+.direct-contact .contact-info {
+  display: flex;
+    flex-direction: row;
+    gap: 200px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.formbox {
+  padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #040000;
+}
+.formbox .form-container {
+    width: 100%;
+        
+        padding: 20px;
+        border-radius: 30px;
+        background-color: #ab1515;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align:center;
+        
+}
+    
+ 
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>FOOD<span>x</span>BAU</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="direct-contact">
+        
+        <div class="contact-info">
+            <div class="location">
+                <h2>OUR LOCATION</h2>
+                <p>Jobbar,BAU</p>
+            </div>
+            <div class="phone">
+                <h2>CONTACT NUMBER</h2>
+                <p>01971759299</p>
+            </div>
+            <div class="email">
+                <h2>EMAIL</h2>
+                <p>triplea@gmail.com</p>
+            </div>
+            
+        </div>
+    </section>
+    <section class="formbox">
+        <div class="form-container">
+            <form action="" method="post">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="hall">Hall</label><br>
+                <input type="text" id="hall" name="hall" required><br><br>
+                <label for="faculty">Faculty</label><br>
+                <select name="faculty" id="faculty" required>
+                    <option value="">Select Faculty</option>
+                    <option value="faculty1">AET</option>
+                    <option value="faculty2">AGRICULTURE</option>
+                    <option value="faculty3">AERS</option>
+                    <option value="faculty4">ASVM</option>
+                    <option value="faculty5">FSM</option>
+                    <option value="faculty6">FISHERIES</option>
+                    <option value="faculty7">DVM</option>
+                    <option value="faculty8">AH</option>
+                </select><br><br>
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" rows="4"></textarea><br><br>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+                <div id="formMessage" style="margin-top: 15px; font-weight: bold;"></div>
+            </form>
+        </div>
+        </section>
+
+        <div style="text-align: center;">
+<h2>FOODxBAU</h2>
+<P>we are a team for serving you</P>
+<p id="footerDate"></p>
+<script src="script.js"></script>
+</div>   
+</body>
+</html>
